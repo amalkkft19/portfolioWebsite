@@ -1,0 +1,69 @@
+.resume__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .resume__menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // flex-grow: 1;
+        .resume__menu_item {
+            display: flex;
+            align-items: center;
+            font-size: 20px;
+            padding: 5px;
+            margin-bottom: 20px;
+            line-height: 30px; /* Adjust this value to vertically center the bullet with the text */
+            cursor: pointer;
+        }
+        .resume__menu_item.active{
+            border: 1px solid #E29ECD;
+            border-radius: 30px 0px 0px 30px;
+            border-right: 1px solid #1F1F1F;
+            background-color: #1F1F1F;
+            padding: 4px;
+            // box-shadow: -6px 1px 11px 3px rgba(226, 158, 205, 0.44);
+            margin-right: -1px;
+            position: relative;
+            z-index: 9999;
+        }
+
+        .resume__menu_item.active::before{
+            color:#E29ECD;
+        }
+          
+        .resume__menu_item::before {
+            content: "•";
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 1em;
+            text-align: center;
+            margin-right: 0px;
+            font-size: 40px;
+            flex-direction: row;
+            color: #B177F0;;
+        }
+        .resume__menu_items{
+            list-style-type: none;
+            .resume__menu_item{
+                font-size: 20px;
+
+            }
+            .resume__menu_item::marker{
+                text-indent: 2px;
+                font-size: 30px;
+             
+            }
+        }
+    }
+}
+
+
+  .resume__menu_items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  

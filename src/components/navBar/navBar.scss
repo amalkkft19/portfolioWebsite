@@ -1,0 +1,19 @@
+@import "../../styles/variables";
+.navBar__container{
+    background-color: $secondary-bg-color;
+    .navBar__link-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 25px;
+    height: 100px;
+    max-width: 1280px;
+
+    .navBar__link{
+        color: $primary-font-color;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+}

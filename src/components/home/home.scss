@@ -1,0 +1,103 @@
+.home__container{
+    font-family: Poppins,Graphik,sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:100px;
+    margin-top: 100px;
+
+    .home__left-part{
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        .home__text-container{
+            display: flex;
+            flex-direction: column;
+            row-gap: 15px;
+            align-items: flex-start;
+
+            .home__text-name{
+                display: flex;
+                align-items: baseline;
+                color: #FFF;    
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 1;
+                column-gap: 15px;
+                div:last-child{
+                    font-size: 48px;
+                    font-weight: 600;
+                }
+            }
+            .home__text-designation{
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                .designer{
+                    color: #B177F0;
+                }
+                .and{
+                    color: #CA88F3;
+                }
+                .developer{
+                    color: #E29ECD;
+                }
+            }
+            .home__text-quote{
+                color: #FFF;
+                font-family: Vujahday Script , sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+        .home__btn{
+            border-radius: 40px;
+            width: 200px;
+            height: 58px;
+            border:none;
+
+            color: #FFF;
+            font-family: Inter;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+        .hire-me__button{    
+            background: linear-gradient(180deg, #B177F0 0%, #E29ECD 100%);
+        }
+        .resume__download-btn{
+            background: linear-gradient(180deg, #E29ECD 0%, #B177F0 100%);
+        }
+        .home__button-container > div{
+            display: flex;
+            flex-direction: row;
+            column-gap: 10px;
+        } 
+    }  
+    
+
+    .home__image-container{
+        width: 396px;
+        height: 396px;
+        flex-shrink: 0;
+        overflow: hidden;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // box-shadow: 1px 1px 1px 1px  #B177F0
+            box-shadow: #B177F0 0px 0px 0px 1px , #B177F0 0px 0px 0px 1px;
+       .home__bgnd-img{
+        background-image: url(https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20230320044023_SDR%201.jpg&w=700&q=90&c=1);
+        height: 92%;
+        width: 92%;
+        border-radius: 50%;
+       }
+    }
+    
+}
