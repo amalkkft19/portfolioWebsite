@@ -1,0 +1,47 @@
+.education__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    row-gap: 20px;
+
+    .education__details_container{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 5px;
+        border: 1px solid #E29ECD;
+        background: #B177F0;
+        max-width: 630px;
+        width: 100%;
+        row-gap: 5px;
+
+        .education__stage{
+            color: #060606;
+            font-size: 16px;
+            // font-style: normal;
+            font-weight: 500;
+        }
+
+
+        .institution{
+            display: flex;
+            justify-content: space-between;
+
+            .name{
+                color: #060606;          
+                font-size: 18px;
+                font-weight: 700;
+            }
+            .year{
+                border-radius: 50px;
+                border: 1px solid #7A00FF;
+                background: #E29ECD;
+                padding: 3px 10px 3px 10px;
+                font-size: 14px;
+                color: #060606;
+            }
+        }
+    }
+}

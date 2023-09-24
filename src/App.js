@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
      <NavBar/>
-     <div style={{maxWidth: '1240px', margin: "0 auto"}}>
+     <div style={{maxWidth: '1240px', margin: "0 80px"}}>
      <Home/>
      <AboutMe/>
      <Resume/>

@@ -3,7 +3,7 @@ import "./navBar.scss";
 
 const NavBar = () => {
   return (
-    <div className='navBar__container marginBtm'>
+    <div className='navBar__container marginBtm__80px'>
         <div className='navBar__link-container'>
             <div className='navBar__link'>Home</div>
             <div className='navBar__link'>About Me</div>

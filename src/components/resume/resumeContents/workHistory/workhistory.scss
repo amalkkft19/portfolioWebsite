@@ -1,0 +1,86 @@
+.workHistory__container{
+    width: 100%;
+    .org__container{
+        margin: 20px 40px;
+        border-radius: 5px;
+        border: 1px solid #E29ECD;
+        background: #B177F0;
+        padding: 20px;
+    .org__header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+
+        .org__header_left{
+            display: flex;
+            align-items: center;
+            column-gap: 7px;
+            .org__icon{
+                width: 50px;
+                height: 48px;
+                img{
+                    border-radius: 4px;
+                }
+            }
+            .org__name-place{
+                .org__name{
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 600;
+                    color: #060606;
+                    line-height: 1;
+                }
+            }
+            .org__place{
+                font-size: 16px;
+                font-style: normal;
+                color: #060606;
+            }
+        }
+        .org__header_right{
+            .org__header_year{
+                color: #060606;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                border-radius: 50px;
+                border: 1px solid #7A00FF;
+                background: #E29ECD;
+                padding: 4px 10px;
+            }
+        }
+      
+    }
+    .org__bottom_section {
+        display: flex;
+        column-gap: 20px;
+        margin-top: 20px;
+        .org__experience,.org__projects{          
+                display: flex;
+                align-items: center;
+                column-gap: 5px;
+                padding: 5px 15px;
+                border-radius: 4px;
+                background: #7A00FF;
+                .number__of_years,.number__of_projects{
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 600;
+
+            }
+            .years__text,.text__projects{
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 1;
+            }
+            .experience__text,.text__class{
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+            }
+        }
+    }
+}
+}
