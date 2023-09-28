@@ -87,24 +87,26 @@ export const workHistory = [{
 }];
 
 export const projects = [
-    {
-    mainProject: [
+   
         {
-            name:'Dinosell Post Purchase Upsell',
-            img:""
+            name:'Dinosell: Post Purchase Upsell',
+            img:"https://cdn.shopify.com/app-store/listing_images/eff91c293f78584414290154ecb51120/icon/CIH-oZGrlPACEAE=.png",
+            description:"dummy text"
         },
         {
             name:'Upsell Funnel Engine',
-            img:""
+            img:"https://cdn.shopify.com/app-store/listing_images/4ae53327b3afd36c9972e851101392c6/icon/CLKHn7X-wvQCEAE=.png",
+            description:"dummy text"
         },
         {
             name:'Bucks Currency Converter',
-            img:""
+            img:"https://cdn.shopify.com/app-store/listing_images/711119d0bf4a6aaa500abe82a4c593af/icon/COOCmPjGrIEDEAE=.png",
+            description:"dummy text"
         },
         {
             name:'Alpha',
-            img:""
+            img:"https://cdn.shopify.com/app-store/listing_images/3e809f875c8c7f4975e920b662d791aa/icon/CN6Y-Kf0lu8CEAE=.png",
+            description:"dummy text"
         }
-    ]
-},
+ 
 ]

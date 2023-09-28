@@ -4,7 +4,7 @@ import HomeButtons from './buttons';
 
 const Home = () => {
   return (
-    <div className='home__container marginBtm'>
+    <div id='home' className='home__container marginBtm'>
         <div className='home__left-part'>
             <div className='home__text-container'>
                 <div className='home__text-name'>

@@ -3,14 +3,19 @@ import AboutMeImageSection from './aboutmeImage'
 
 const AboutMe = () => {
   return (
-    <div className='aboutme__container marginBtm'>
+    <div id='aboutme' className='aboutme__container marginBtm'>
         <AboutMeImageSection/>
         <div className='aboutme__description'>
           <div className='aboutme__title'>
             About Me        
           </div>
           <div className='aboutme__text'>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            <p>
+            I'm a React developer with 2 years of experience, known for my dual proficiency in web development and Shopify app creation. My portfolio boasts four successful Shopify apps that have revolutionized the way businesses operate online. Currently, I'm a vital part of Helixo Innovations Pvt Ltd, where I blend my love for React with my passion for developing outstanding Shopify solutions.
+            </p>
+            <p>
+            Outside of coding, I'm an avid learner, always eager to explore new technologies and stay updated with the latest trends in React and JavaScript. I'm a regular reader of tech blogs, and I enjoy participating in hackathons to keep my problem-solving skills sharp.
+            </p>
           </div>
 
         </div>

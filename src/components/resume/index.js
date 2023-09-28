@@ -9,7 +9,7 @@ const Resume = () => {
         setActiveList(index);
     }
   return (
-    <div className='resume__container marginBtm'>
+    <div id='resume' className='resume__container marginBtm'>
         <div className='resume__menu'>
             <ul className='resume__menu_items'>
                 <li className={`resume__menu_item menu__one ${activeList === 1 && "active"}`} onClick={()=>onLiClick(1)}>Education</li>
@@ -19,7 +19,7 @@ const Resume = () => {
                 <li className={`resume__menu_item menu__five ${activeList === 5 && "active"}`} onClick={()=>onLiClick(5)}>Interests</li>
             </ul>
         </div>
-        <ResumeContents/>
+        <ResumeContents activeList={activeList}/>
     </div>
   )
 }

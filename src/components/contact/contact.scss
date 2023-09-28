@@ -1,0 +1,39 @@
+.contact__container{
+    background: #1f1f1f;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   form{
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+   }
+    input{
+        
+        background: #4b4b4b;
+        border: 1px solid #4b4b4b;
+        height: 30px;
+    }
+    .form__name-email{
+        display: flex;
+        column-gap: 10px;
+        .flex__column{
+            width: 50%;
+        }
+    }
+    .flex__column {
+        display: flex;
+        flex-direction: column;
+        
+    }
+   
+    .form__message{
+        input{
+            height: 100px;
+        }
+    }
+
+}
