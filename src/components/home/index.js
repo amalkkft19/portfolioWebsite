@@ -25,7 +25,7 @@ const Home = () => {
         <div className='home__right-part'>
             <div className='home__image-container'>
                 <div className='home__bgnd-img'>
-                    <img style={{width:"100%"}} src={ProfilePic} alt='profile'></img>
+                    <img src={ProfilePic} alt='profile'></img>
                 </div>
             </div>
         </div>
