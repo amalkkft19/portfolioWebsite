@@ -4,9 +4,9 @@ import TitleComponent from '../common/titleComponent'
 
 const AboutMe = () => {
   return (
-    <>
+    <div id='aboutme'>
     <TitleComponent title="A Creative Mind" margin='80'/>
-    <div id='aboutme' className='aboutme__container marginBtm'>
+    <div className='aboutme__container marginBtm'>
       
         <AboutMeImageSection/>
         <div className='aboutme__description'>
@@ -22,7 +22,7 @@ const AboutMe = () => {
         </div>
     </div>
     
-    </>
+    </div>
   )
 }
 
