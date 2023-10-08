@@ -1,6 +1,7 @@
 import React from 'react';
 import "./home.scss";
 import HomeButtons from './buttons';
+import ProfilePic from "../../images/profilepic.jpg"; 
 
 const Home = () => {
   return (
@@ -23,7 +24,9 @@ const Home = () => {
         </div>
         <div className='home__right-part'>
             <div className='home__image-container'>
-                <div className='home__bgnd-img'></div>
+                <div className='home__bgnd-img'>
+                    <img style={{width:"100%"}} src={ProfilePic} alt='profile'></img>
+                </div>
             </div>
         </div>
     </div>
