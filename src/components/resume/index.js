@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import ResumeContents from './resumeContents'
 import "./resume.scss";
+import TitleComponent from '../common/titleComponent';
 
 const Resume = () => {
     const [activeList, setActiveList] = useState(1);
@@ -9,6 +10,8 @@ const Resume = () => {
         setActiveList(index);
     }
   return (
+    <>
+    <TitleComponent title="Balancing Act"/>
     <div id='resume' className='resume__container marginBtm'>
         <div className='resume__menu'>
             <ul className='resume__menu_items'>
@@ -21,6 +24,7 @@ const Resume = () => {
         </div>
         <ResumeContents activeList={activeList}/>
     </div>
+    </>
   )
 }
 

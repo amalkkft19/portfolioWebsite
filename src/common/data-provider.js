@@ -89,7 +89,7 @@ export const workHistory = [{
 export const projects = [
    
         {
-            name:'Dinosell: Post Purchase Upsell',
+            name:'Dinosell',
             img:"https://cdn.shopify.com/app-store/listing_images/eff91c293f78584414290154ecb51120/icon/CIH-oZGrlPACEAE=.png",
             description:"dummy text"
         },

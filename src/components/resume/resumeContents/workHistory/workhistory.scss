@@ -3,8 +3,8 @@
     .org__container{
         margin: 20px 40px;
         border-radius: 5px;
-        border: 1px solid #E29ECD;
-        background: #B177F0;
+        border: 1px solid #EDEEEF;
+        // background: #B177F0;
         padding: 20px;
     .org__header{
         display: flex;
@@ -28,25 +28,25 @@
                     font-size: 20px;
                     font-style: normal;
                     font-weight: 600;
-                    color: #060606;
+                    color: #ffffff;
                     line-height: 1;
                 }
             }
             .org__place{
                 font-size: 16px;
                 font-style: normal;
-                color: #060606;
+                color: #ffffff;
             }
         }
         .org__header_right{
             .org__header_year{
-                color: #060606;
+                color: #ffffff;
                 font-size: 16px;
                 font-style: normal;
                 font-weight: 500;
                 border-radius: 50px;
-                border: 1px solid #7A00FF;
-                background: #E29ECD;
+                border: 1px solid #EDEEEF;
+                // background: #E29ECD;
                 padding: 4px 10px;
             }
         }

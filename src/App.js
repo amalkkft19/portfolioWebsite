@@ -6,6 +6,7 @@ import Home from './components/home';
 import NavBar from "./components/navBar";
 import Resume from './components/resume';
 import { debounce } from './common/commonMethods';
+import TitleComponent from './components/common/titleComponent';
 
 function App() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -18,7 +19,7 @@ function App() {
 
   const handleMouseMove = (e) => {
     if(!animation) setAnimation(true);
-    console.log({ x: e.clientX, y: e.clientY });
+
     setPosition({ x: e.clientX, y: e.clientY });
     debouncedDelayStopAnimation();  
   };
@@ -30,7 +31,6 @@ function App() {
       const scrollY = window.scrollY;
       setScrolled(scrollY);
       // Now, 'scrollY' contains the amount scrolled in the Y-direction
-      console.log(`Scrolled ${scrollY}px vertically.`);
     });
     window.addEventListener('mousemove', handleMouseMove);
 
@@ -47,8 +47,11 @@ function App() {
      <NavBar/>
      <div style={{maxWidth: '1240px', margin: "0 80px"}}>
      <Home/>
+     
      <AboutMe/>
+     
      <Resume/>
+    
      <Contact/>
      </div>
     </div>

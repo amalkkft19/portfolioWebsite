@@ -29,7 +29,7 @@ const CarouselComponent = ({renderWidgetImage}) => {
            *  ScrollWidth :- The size of all of the box's content, including the parts that are currently hidden outside the scrolling area.
            *  scrollLeft :- The scrollLeft property sets or returns the number of pixels an element's content is scrolled horizontally
            */  
-          const { scrollWidth, clientWidth, scrollLeft } = slider;
+          const { scrollWidth =0, clientWidth =0, scrollLeft=0 } = slider || {};
   
           return { scrollWidth, clientWidth, scrollLeft }
       }
@@ -39,7 +39,7 @@ const CarouselComponent = ({renderWidgetImage}) => {
        */
       const activateButtons = () =>{
           
-          const { scrollWidth, clientWidth, scrollLeft } = scrollAndClientWidth();
+          const { scrollWidth = 0, clientWidth = 0, scrollLeft = 0 } = scrollAndClientWidth();
       
           const scrollableWidth = scrollWidth - clientWidth ;
               if(scrollableWidth === scrollLeft){ 
@@ -55,7 +55,7 @@ const CarouselComponent = ({renderWidgetImage}) => {
          
          }
       useEffect(() => {
-          const { scrollWidth, clientWidth } = scrollAndClientWidth();
+          const { scrollWidth = 0, clientWidth = 0 } = scrollAndClientWidth();
   
           if(clientWidth >= scrollWidth) hideScrollBtn(true);
           if(clientWidth < scrollWidth) hideScrollBtn(false);
@@ -87,7 +87,7 @@ const CarouselComponent = ({renderWidgetImage}) => {
         
         const slider = document.querySelector('[data-slider]');
 
-        const { scrollLeft } = slider;
+        const { scrollLeft = 0 } = slider;
 
         const sliderContainer = document.querySelector('[data-slide]');
         /**
