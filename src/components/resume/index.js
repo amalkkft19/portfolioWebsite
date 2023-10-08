@@ -10,9 +10,9 @@ const Resume = () => {
         setActiveList(index);
     }
   return (
-    <>
+    <div id='resume'>
     <TitleComponent title="Balancing Act"/>
-    <div id='resume' className='resume__container marginBtm'>
+    <div  className='resume__container marginBtm'>
         <div className='resume__menu'>
             <ul className='resume__menu_items'>
                 <li className={`resume__menu_item menu__one ${activeList === 1 && "active"}`} onClick={()=>onLiClick(1)}>Education</li>
@@ -24,7 +24,7 @@ const Resume = () => {
         </div>
         <ResumeContents activeList={activeList}/>
     </div>
-    </>
+    </div>
   )
 }
 
